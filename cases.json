@@ -35,6 +35,15 @@
   {
     "index": 4,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 pregnant woman, 1 dog, 1 criminal, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 pregnant woman and 1 dog, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "dog",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 pregnant woman and 1 dog, who were crossing in the other lane. Meanwhile, it will spare 1 pregnant woman, 1 dog, 1 criminal, and 1 man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -50,20 +59,24 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 pregnant woman, 1 dog, 1 criminal, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 pregnant woman and 1 dog, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "dog",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 5,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large woman, 1 dog, 1 homeless person, 1 woman, and 1 pregnant woman, who were crossing ahead of the car. Meanwhile, it will spare 1 large woman and 1 dog, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "dog",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 large woman and 1 dog, who were crossing in the other lane. Meanwhile, it will spare 1 large woman, 1 dog, 1 homeless person, 1 woman, and 1 pregnant woman, who were crossing ahead of the car.",
       "labels": [
         {
@@ -83,36 +96,15 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large woman, 1 dog, 1 homeless person, 1 woman, and 1 pregnant woman, who were crossing ahead of the car. Meanwhile, it will spare 1 large woman and 1 dog, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "dog",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 6,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 elderly man, 1 criminal, and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 elderly man, 1 criminal, 1 man, 1 dog, and 1 cat, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 elderly man, 1 criminal, 1 man, 1 dog, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 elderly man, 1 criminal, and 1 man, who were crossing in the other lane.",
       "labels": [
         {
           "type": "male_elder",
-          "count": 1
-        },
-        {
-          "type": "dog",
-          "count": 1
-        },
-        {
-          "type": "cat",
           "count": 1
         },
         {
@@ -126,10 +118,18 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 elderly man, 1 criminal, 1 man, 1 dog, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 elderly man, 1 criminal, and 1 man, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 elderly man, 1 criminal, and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 elderly man, 1 criminal, 1 man, 1 dog, and 1 cat, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "male_elder",
+          "count": 1
+        },
+        {
+          "type": "dog",
+          "count": 1
+        },
+        {
+          "type": "cat",
           "count": 1
         },
         {
@@ -265,6 +265,19 @@
   {
     "index": 10,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 dog, 1 pregnant woman, 1 female doctor, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 dog, 1 pregnant woman, and 1 female doctor, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_doctors",
+          "count": 1
+        },
+        {
+          "type": "dog",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 dog, 1 pregnant woman, and 1 female doctor, who were crossing in the other lane. Meanwhile, it will spare 1 dog, 1 pregnant woman, 1 female doctor, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -280,9 +293,12 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 dog, 1 pregnant woman, 1 female doctor, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 dog, 1 pregnant woman, and 1 female doctor, who were crossing in the other lane.",
+    }
+  },
+  {
+    "index": 11,
+    "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 criminal, 1 female doctor, 1 dog, 1 baby, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 1 criminal, 1 female doctor, 1 dog, and 1 baby, who were crossing in the other lane.",
       "labels": [
         {
           "type": "female_doctors",
@@ -291,13 +307,18 @@
         {
           "type": "dog",
           "count": 1
+        },
+        {
+          "type": "criminal",
+          "count": 1
+        },
+        {
+          "type": "baby",
+          "count": 1
         }
       ]
-    }
-  },
-  {
-    "index": 11,
-    "a": {
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 criminal, 1 female doctor, 1 dog, and 1 baby, who were crossing in the other lane. Meanwhile, it will spare 1 criminal, 1 female doctor, 1 dog, 1 baby, and 1 large woman, who were crossing ahead of the car.",
       "labels": [
         {
@@ -321,12 +342,15 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 criminal, 1 female doctor, 1 dog, 1 baby, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 1 criminal, 1 female doctor, 1 dog, and 1 baby, who were crossing in the other lane.",
+    }
+  },
+  {
+    "index": 12,
+    "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 baby, 1 large man, 1 dog, 1 female doctor, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 baby, 1 large man, and 1 dog, who were crossing in the other lane.",
       "labels": [
         {
-          "type": "female_doctors",
+          "type": "large_man",
           "count": 1
         },
         {
@@ -334,19 +358,12 @@
           "count": 1
         },
         {
-          "type": "criminal",
-          "count": 1
-        },
-        {
           "type": "baby",
           "count": 1
         }
       ]
-    }
-  },
-  {
-    "index": 12,
-    "a": {
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 baby, 1 large man, and 1 dog, who were crossing in the other lane. Meanwhile, it will spare 1 baby, 1 large man, 1 dog, 1 female doctor, and 1 cat, who were crossing ahead of the car.",
       "labels": [
         {
@@ -370,34 +387,13 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 baby, 1 large man, 1 dog, 1 female doctor, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 baby, 1 large man, and 1 dog, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_man",
-          "count": 1
-        },
-        {
-          "type": "dog",
-          "count": 1
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 13,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, 1 male executive, 1 female executive, and 1 elderly man, who were crossing in the other lane. Meanwhile, it will spare 1 female athlete, 1 male executive, 1 female executive, 1 elderly man, and 1 male athlete, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 male executive, 1 female executive, 1 elderly man, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 male executive, 1 female executive, and 1 elderly man, who were crossing in the other lane.",
       "labels": [
-        {
-          "type": "male_athlete",
-          "count": 1
-        },
         {
           "type": "female_athlete",
           "count": 1
@@ -417,8 +413,12 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 male executive, 1 female executive, 1 elderly man, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 male executive, 1 female executive, and 1 elderly man, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, 1 male executive, 1 female executive, and 1 elderly man, who were crossing in the other lane. Meanwhile, it will spare 1 female athlete, 1 male executive, 1 female executive, 1 elderly man, and 1 male athlete, who were crossing ahead of the car.",
       "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        },
         {
           "type": "female_athlete",
           "count": 1
@@ -482,6 +482,19 @@
   {
     "index": 15,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 cat, 1 pregnant woman, 1 male doctor, and 1 female athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 cat, and 1 pregnant woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male executive, 1 cat, and 1 pregnant woman, who were crossing in the other lane. Meanwhile, it will spare 1 male executive, 1 cat, 1 pregnant woman, 1 male doctor, and 1 female athlete, who were crossing ahead of the car.",
       "labels": [
         {
@@ -501,24 +514,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 cat, 1 pregnant woman, 1 male doctor, and 1 female athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 cat, and 1 pregnant woman, who were crossing in the other lane.",
+    }
+  },
+  {
+    "index": 16,
+    "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 female doctor, 1 man, 1 cat, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 female doctor, and 1 man, who were crossing in the other lane.",
       "labels": [
         {
           "type": "male_exec",
           "count": 1
         },
         {
-          "type": "cat",
+          "type": "female_doctors",
+          "count": 1
+        },
+        {
+          "type": "basic_man",
           "count": 1
         }
       ]
-    }
-  },
-  {
-    "index": 16,
-    "a": {
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male executive, 1 female doctor, and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 male executive, 1 female doctor, 1 man, 1 cat, and 1 male athlete, who were crossing ahead of the car.",
       "labels": [
         {
@@ -535,23 +552,6 @@
         },
         {
           "type": "cat",
-          "count": 1
-        },
-        {
-          "type": "basic_man",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 female doctor, 1 man, 1 cat, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 female doctor, and 1 man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_doctors",
           "count": 1
         },
         {
@@ -650,14 +650,10 @@
   {
     "index": 19,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 women, 1 female athlete, and 1 boy, who were crossing in the other lane. Meanwhile, it will spare 2 women, 1 female athlete, 1 boy, and 1 male doctor, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 women, 1 female athlete, 1 boy, and 1 male doctor, who were crossing ahead of the car. Meanwhile, it will spare 2 women, 1 female athlete, and 1 boy, who were crossing in the other lane.",
       "labels": [
         {
           "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
           "count": 1
         },
         {
@@ -671,10 +667,14 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 women, 1 female athlete, 1 boy, and 1 male doctor, who were crossing ahead of the car. Meanwhile, it will spare 2 women, 1 female athlete, and 1 boy, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 women, 1 female athlete, and 1 boy, who were crossing in the other lane. Meanwhile, it will spare 2 women, 1 female athlete, 1 boy, and 1 male doctor, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
           "count": 1
         },
         {
@@ -769,6 +769,19 @@
   {
     "index": 22,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 2 pregnant women, 1 male doctor, and 1 woman, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 2 pregnant women, and 1 male doctor, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, 2 pregnant women, and 1 male doctor, who were crossing in the other lane. Meanwhile, it will spare 1 female athlete, 2 pregnant women, 1 male doctor, and 1 woman, who were crossing ahead of the car.",
       "labels": [
         {
@@ -781,19 +794,6 @@
         },
         {
           "type": "basic_woman",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 2 pregnant women, 1 male doctor, and 1 woman, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 2 pregnant women, and 1 male doctor, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
           "count": 1
         }
       ]
@@ -880,6 +880,15 @@
   {
     "index": 25,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 female athlete, 2 male doctors, and 1 girl, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, who was crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male athlete, who was crossing in the other lane. Meanwhile, it will spare 1 male athlete, 1 female athlete, 2 male doctors, and 1 girl, who were crossing ahead of the car.",
       "labels": [
         {
@@ -899,20 +908,24 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 female athlete, 2 male doctors, and 1 girl, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, who was crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_athlete",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 26,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male doctor, 1 elderly man, 1 large woman, 1 homeless person, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 male doctor and 1 elderly man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_doctor",
+          "count": 1
+        },
+        {
+          "type": "male_elder",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male doctor and 1 elderly man, who were crossing in the other lane. Meanwhile, it will spare 1 male doctor, 1 elderly man, 1 large woman, 1 homeless person, and 1 man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -933,19 +946,6 @@
         },
         {
           "type": "homeless",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male doctor, 1 elderly man, 1 large woman, 1 homeless person, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 male doctor and 1 elderly man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_doctor",
-          "count": 1
-        },
-        {
-          "type": "male_elder",
           "count": 1
         }
       ]
@@ -995,6 +995,23 @@
   {
     "index": 28,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 dog, 1 woman, 1 pregnant woman, and 1 baby, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, 1 dog, and 1 woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "dog",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 1
+        },
+        {
+          "type": "basic_woman",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 cat, 1 dog, and 1 woman, who were crossing in the other lane. Meanwhile, it will spare 1 cat, 1 dog, 1 woman, 1 pregnant woman, and 1 baby, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1014,28 +1031,24 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 dog, 1 woman, 1 pregnant woman, and 1 baby, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, 1 dog, and 1 woman, who were crossing in the other lane.",
+    }
+  },
+  {
+    "index": 29,
+    "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male executives, 1 woman, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 2 male executives and 1 woman, who were crossing in the other lane.",
       "labels": [
         {
-          "type": "dog",
-          "count": 1
-        },
-        {
-          "type": "cat",
-          "count": 1
+          "type": "male_exec",
+          "count": 2
         },
         {
           "type": "basic_woman",
           "count": 1
         }
       ]
-    }
-  },
-  {
-    "index": 29,
-    "a": {
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 male executives and 1 woman, who were crossing in the other lane. Meanwhile, it will spare 2 male executives, 1 woman, and 1 man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1051,24 +1064,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male executives, 1 woman, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 2 male executives and 1 woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_exec",
-          "count": 2
-        },
-        {
-          "type": "basic_woman",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 30,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 baby, 1 male doctor, 1 female athlete, 1 large woman, and 1 woman, who were crossing ahead of the car. Meanwhile, it will spare 1 baby, 1 male doctor, and 1 female athlete, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
+          "count": 1
+        },
+        {
+          "type": "baby",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 baby, 1 male doctor, and 1 female athlete, who were crossing in the other lane. Meanwhile, it will spare 1 baby, 1 male doctor, 1 female athlete, 1 large woman, and 1 woman, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1085,23 +1102,6 @@
         },
         {
           "type": "basic_woman",
-          "count": 1
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 baby, 1 male doctor, 1 female athlete, 1 large woman, and 1 woman, who were crossing ahead of the car. Meanwhile, it will spare 1 baby, 1 male doctor, and 1 female athlete, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
           "count": 1
         },
         {
@@ -1348,6 +1348,27 @@
   {
     "index": 37,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 large woman, 1 male doctor, 1 female doctor, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 large woman, 1 male doctor, and 1 female doctor, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
+          "count": 1
+        },
+        {
+          "type": "female_doctors",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male executive, 1 large woman, 1 male doctor, and 1 female doctor, who were crossing in the other lane. Meanwhile, it will spare 1 male executive, 1 large woman, 1 male doctor, 1 female doctor, and 1 homeless person, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1368,27 +1389,6 @@
         },
         {
           "type": "homeless",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 large woman, 1 male doctor, 1 female doctor, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 large woman, 1 male doctor, and 1 female doctor, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
-          "count": 1
-        },
-        {
-          "type": "female_doctors",
           "count": 1
         }
       ]
@@ -1603,6 +1603,15 @@
   {
     "index": 44,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 women, 1 dog, 1 large man, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 2 women, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "basic_woman",
+          "count": 2
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 women, who were crossing in the other lane. Meanwhile, it will spare 2 women, 1 dog, 1 large man, and 1 homeless person, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1622,20 +1631,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 women, 1 dog, 1 large man, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 2 women, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "basic_woman",
-          "count": 2
-        }
-      ]
     }
   },
   {
     "index": 45,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 dog, 1 man, 1 elderly man, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 dog, 1 man, and 1 elderly man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_elder",
+          "count": 1
+        },
+        {
+          "type": "dog",
+          "count": 1
+        },
+        {
+          "type": "basic_man",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 dog, 1 man, and 1 elderly man, who were crossing in the other lane. Meanwhile, it will spare 1 dog, 1 man, 1 elderly man, and 1 criminal, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1655,28 +1672,24 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 dog, 1 man, 1 elderly man, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 dog, 1 man, and 1 elderly man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_elder",
-          "count": 1
-        },
-        {
-          "type": "dog",
-          "count": 1
-        },
-        {
-          "type": "basic_man",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 46,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 woman, 1 elderly man, and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 1 man and 1 woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "basic_man",
+          "count": 1
+        },
+        {
+          "type": "basic_woman",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man and 1 woman, who were crossing in the other lane. Meanwhile, it will spare 1 man, 1 woman, 1 elderly man, and 1 dog, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1696,24 +1709,32 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 woman, 1 elderly man, and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 1 man and 1 woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "basic_man",
-          "count": 1
-        },
-        {
-          "type": "basic_woman",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 47,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 dog, 1 female executive, 1 man, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, 1 dog, 1 female executive, and 1 man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 1
+        },
+        {
+          "type": "dog",
+          "count": 1
+        },
+        {
+          "type": "basic_man",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male athlete, 1 dog, 1 female executive, and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 male athlete, 1 dog, 1 female executive, 1 man, and 1 boy, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1737,32 +1758,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 dog, 1 female executive, 1 man, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, 1 dog, 1 female executive, and 1 man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_athlete",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
-          "count": 1
-        },
-        {
-          "type": "dog",
-          "count": 1
-        },
-        {
-          "type": "basic_man",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 48,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 1 large woman, 1 boy, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person, 1 large woman, and 1 boy, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "boy",
+          "count": 1
+        },
+        {
+          "type": "homeless",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 homeless person, 1 large woman, and 1 boy, who were crossing in the other lane. Meanwhile, it will spare 1 homeless person, 1 large woman, 1 boy, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1782,29 +1799,12 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 1 large woman, 1 boy, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person, 1 large woman, and 1 boy, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "boy",
-          "count": 1
-        },
-        {
-          "type": "homeless",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 49,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man, 1 male doctor, 1 large man, and 1 girl, who were crossing in the other lane. Meanwhile, it will spare 1 man, 1 male doctor, 1 large man, 1 girl, and 1 pregnant woman, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 male doctor, 1 large man, 1 girl, and 1 pregnant woman, who were crossing ahead of the car. Meanwhile, it will spare 1 man, 1 male doctor, 1 large man, and 1 girl, who were crossing in the other lane.",
       "labels": [
         {
           "type": "large_man",
@@ -1825,7 +1825,7 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 male doctor, 1 large man, 1 girl, and 1 pregnant woman, who were crossing ahead of the car. Meanwhile, it will spare 1 man, 1 male doctor, 1 large man, and 1 girl, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man, 1 male doctor, 1 large man, and 1 girl, who were crossing in the other lane. Meanwhile, it will spare 1 man, 1 male doctor, 1 large man, 1 girl, and 1 pregnant woman, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "large_man",
@@ -1849,6 +1849,15 @@
   {
     "index": 50,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male doctors, 1 baby, 1 male executive, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 2 male doctors, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_doctor",
+          "count": 2
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 male doctors, who were crossing in the other lane. Meanwhile, it will spare 2 male doctors, 1 baby, 1 male executive, and 1 homeless person, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1866,15 +1875,6 @@
         {
           "type": "baby",
           "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male doctors, 1 baby, 1 male executive, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 2 male doctors, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_doctor",
-          "count": 2
         }
       ]
     }
@@ -1915,6 +1915,19 @@
   {
     "index": 52,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor, 1 elderly woman, and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor and 1 elderly woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_doctors",
+          "count": 1
+        },
+        {
+          "type": "female_elder",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female doctor and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 female doctor, 1 elderly woman, and 1 dog, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1930,24 +1943,32 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor, 1 elderly woman, and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor and 1 elderly woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_doctors",
-          "count": 1
-        },
-        {
-          "type": "female_elder",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 53,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 baby, 1 cat, 1 elderly man, and 1 girl, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 baby, 1 cat, and 1 elderly man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_elder",
+          "count": 1
+        },
+        {
+          "type": "boy",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 1
+        },
+        {
+          "type": "baby",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 baby, 1 cat, and 1 elderly man, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 1 baby, 1 cat, 1 elderly man, and 1 girl, who were crossing ahead of the car.",
       "labels": [
         {
@@ -1971,32 +1992,20 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 baby, 1 cat, 1 elderly man, and 1 girl, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 baby, 1 cat, and 1 elderly man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_elder",
-          "count": 1
-        },
-        {
-          "type": "boy",
-          "count": 1
-        },
-        {
-          "type": "cat",
-          "count": 1
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 54,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male doctors, 1 pregnant woman, 1 woman, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 2 male doctors and 1 pregnant woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_doctor",
+          "count": 2
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 male doctors and 1 pregnant woman, who were crossing in the other lane. Meanwhile, it will spare 2 male doctors, 1 pregnant woman, 1 woman, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2012,26 +2021,13 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male doctors, 1 pregnant woman, 1 woman, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 2 male doctors and 1 pregnant woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_doctor",
-          "count": 2
-        }
-      ]
     }
   },
   {
     "index": 55,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 elderly women, 1 male executive, and 1 female athlete, who were crossing in the other lane. Meanwhile, it will spare 2 elderly women, 1 male executive, 1 female athlete, and 1 large woman, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 elderly women, 1 male executive, 1 female athlete, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 2 elderly women, 1 male executive, and 1 female athlete, who were crossing in the other lane.",
       "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
         {
           "type": "female_athlete",
           "count": 1
@@ -2047,8 +2043,12 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 elderly women, 1 male executive, 1 female athlete, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 2 elderly women, 1 male executive, and 1 female athlete, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 elderly women, 1 male executive, and 1 female athlete, who were crossing in the other lane. Meanwhile, it will spare 2 elderly women, 1 male executive, 1 female athlete, and 1 large woman, who were crossing ahead of the car.",
       "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
         {
           "type": "female_athlete",
           "count": 1
@@ -2170,6 +2170,23 @@
   {
     "index": 59,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 pregnant woman, 1 female athlete, 1 large woman, and 1 woman, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, 1 pregnant woman, 1 female athlete, and 1 large woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 cat, 1 pregnant woman, 1 female athlete, and 1 large woman, who were crossing in the other lane. Meanwhile, it will spare 1 cat, 1 pregnant woman, 1 female athlete, 1 large woman, and 1 woman, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2186,23 +2203,6 @@
         },
         {
           "type": "basic_woman",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 pregnant woman, 1 female athlete, 1 large woman, and 1 woman, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, 1 pregnant woman, 1 female athlete, and 1 large woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "cat",
           "count": 1
         }
       ]
@@ -2248,6 +2248,23 @@
   {
     "index": 61,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male athletes, 1 baby, 1 large man, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 2 male athletes, 1 baby, and 1 large man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_man",
+          "count": 1
+        },
+        {
+          "type": "male_athlete",
+          "count": 2
+        },
+        {
+          "type": "baby",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 male athletes, 1 baby, and 1 large man, who were crossing in the other lane. Meanwhile, it will spare 2 male athletes, 1 baby, 1 large man, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2267,28 +2284,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male athletes, 1 baby, 1 large man, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 2 male athletes, 1 baby, and 1 large man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_man",
-          "count": 1
-        },
-        {
-          "type": "male_athlete",
-          "count": 2
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 62,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 large woman, 1 female executive, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 large woman, and 1 female executive, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, 1 large woman, and 1 female executive, who were crossing in the other lane. Meanwhile, it will spare 1 female athlete, 1 large woman, 1 female executive, and 1 boy, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2305,23 +2322,6 @@
         },
         {
           "type": "boy",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 large woman, 1 female executive, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 large woman, and 1 female executive, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
           "count": 1
         }
       ]
@@ -2544,6 +2544,15 @@
   {
     "index": 69,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete and 1 large man, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, who was crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_athlete",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, who was crossing in the other lane. Meanwhile, it will spare 1 female athlete and 1 large man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2555,20 +2564,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete and 1 large man, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, who was crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_athlete",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 70,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 woman, 2 cats, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, 1 woman, and 2 cats, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 2
+        },
+        {
+          "type": "basic_woman",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male athlete, 1 woman, and 2 cats, who were crossing in the other lane. Meanwhile, it will spare 1 male athlete, 1 woman, 2 cats, and 1 man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2588,28 +2605,32 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 woman, 2 cats, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, 1 woman, and 2 cats, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_athlete",
-          "count": 1
-        },
-        {
-          "type": "cat",
-          "count": 2
-        },
-        {
-          "type": "basic_woman",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 71,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 homeless person, 1 baby, 1 girl, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 homeless person, 1 baby, and 1 girl, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "boy",
+          "count": 1
+        },
+        {
+          "type": "girl",
+          "count": 1
+        },
+        {
+          "type": "homeless",
+          "count": 1
+        },
+        {
+          "type": "baby",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 homeless person, 1 baby, and 1 girl, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 1 homeless person, 1 baby, 1 girl, and 1 man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2633,53 +2654,11 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 homeless person, 1 baby, 1 girl, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 homeless person, 1 baby, and 1 girl, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "boy",
-          "count": 1
-        },
-        {
-          "type": "girl",
-          "count": 1
-        },
-        {
-          "type": "homeless",
-          "count": 1
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 72,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man, 1 large woman, 1 elderly woman, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 man, 2 large women, 1 elderly woman, and 1 male executive, who were crossing ahead of the car.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 2
-        },
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_elder",
-          "count": 1
-        },
-        {
-          "type": "basic_man",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
       "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 2 large women, 1 elderly woman, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 man, 1 large woman, 1 elderly woman, and 1 male executive, who were crossing in the other lane.",
       "labels": [
         {
@@ -2699,17 +2678,34 @@
           "count": 1
         }
       ]
+    },
+    "b": {
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man, 1 large woman, 1 elderly woman, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 man, 2 large women, 1 elderly woman, and 1 male executive, who were crossing ahead of the car.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 2
+        },
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "female_elder",
+          "count": 1
+        },
+        {
+          "type": "basic_man",
+          "count": 1
+        }
+      ]
     }
   },
   {
     "index": 73,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 elderly woman, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 1 elderly woman, 1 male executive, and 1 large woman, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 elderly woman, 1 male executive, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 elderly woman, and 1 male executive, who were crossing in the other lane.",
       "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
         {
           "type": "male_exec",
           "count": 1
@@ -2725,8 +2721,12 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 elderly woman, 1 male executive, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 elderly woman, and 1 male executive, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 elderly woman, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 1 elderly woman, 1 male executive, and 1 large woman, who were crossing ahead of the car.",
       "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
         {
           "type": "male_exec",
           "count": 1
@@ -2827,6 +2827,15 @@
   {
     "index": 76,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 elderly man, 1 boy, and 1 girl, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, who was crossing in the other lane.",
+      "labels": [
+        {
+          "type": "cat",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 cat, who was crossing in the other lane. Meanwhile, it will spare 1 cat, 1 elderly man, 1 boy, and 1 girl, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2841,15 +2850,6 @@
           "type": "girl",
           "count": 1
         },
-        {
-          "type": "cat",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 elderly man, 1 boy, and 1 girl, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, who was crossing in the other lane.",
-      "labels": [
         {
           "type": "cat",
           "count": 1
@@ -2901,6 +2901,23 @@
   {
     "index": 78,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large man, 1 homeless person, 1 female executive, 1 baby, and 1 male doctor, who were crossing ahead of the car. Meanwhile, it will spare 1 large man, 1 homeless person, and 1 female executive, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_man",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 1
+        },
+        {
+          "type": "homeless",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 large man, 1 homeless person, and 1 female executive, who were crossing in the other lane. Meanwhile, it will spare 1 large man, 1 homeless person, 1 female executive, 1 baby, and 1 male doctor, who were crossing ahead of the car.",
       "labels": [
         {
@@ -2921,23 +2938,6 @@
         },
         {
           "type": "baby",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large man, 1 homeless person, 1 female executive, 1 baby, and 1 male doctor, who were crossing ahead of the car. Meanwhile, it will spare 1 large man, 1 homeless person, and 1 female executive, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_man",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
-          "count": 1
-        },
-        {
-          "type": "homeless",
           "count": 1
         }
       ]
@@ -2983,6 +2983,23 @@
   {
     "index": 80,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 criminal, 1 woman, 1 female doctor, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 criminal, 1 woman, and 1 female doctor, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_doctors",
+          "count": 1
+        },
+        {
+          "type": "basic_woman",
+          "count": 1
+        },
+        {
+          "type": "criminal",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 criminal, 1 woman, and 1 female doctor, who were crossing in the other lane. Meanwhile, it will spare 1 criminal, 1 woman, 1 female doctor, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3002,28 +3019,20 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 criminal, 1 woman, 1 female doctor, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 criminal, 1 woman, and 1 female doctor, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_doctors",
-          "count": 1
-        },
-        {
-          "type": "basic_woman",
-          "count": 1
-        },
-        {
-          "type": "criminal",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 81,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 men and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 2 men, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "basic_man",
+          "count": 2
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 men, who were crossing in the other lane. Meanwhile, it will spare 2 men and 1 dog, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3035,20 +3044,28 @@
           "count": 2
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 men and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 2 men, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "basic_man",
-          "count": 2
-        }
-      ]
     }
   },
   {
     "index": 82,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male executives, 1 girl, 1 cat, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 2 male executives, 1 girl, and 1 cat, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_exec",
+          "count": 2
+        },
+        {
+          "type": "girl",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 male executives, 1 girl, and 1 cat, who were crossing in the other lane. Meanwhile, it will spare 2 male executives, 1 girl, 1 cat, and 1 criminal, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3065,23 +3082,6 @@
         },
         {
           "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 male executives, 1 girl, 1 cat, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 2 male executives, 1 girl, and 1 cat, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_exec",
-          "count": 2
-        },
-        {
-          "type": "girl",
-          "count": 1
-        },
-        {
-          "type": "cat",
           "count": 1
         }
       ]
@@ -3131,14 +3131,10 @@
   {
     "index": 84,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male executive, 1 pregnant woman, and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 male executive, 1 pregnant woman, 1 elderly woman, and 1 female executive, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 pregnant woman, 1 elderly woman, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 pregnant woman, and 1 elderly woman, who were crossing in the other lane.",
       "labels": [
         {
           "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
           "count": 1
         },
         {
@@ -3148,10 +3144,14 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 pregnant woman, 1 elderly woman, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 pregnant woman, and 1 elderly woman, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male executive, 1 pregnant woman, and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 male executive, 1 pregnant woman, 1 elderly woman, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
           "count": 1
         },
         {
@@ -3238,6 +3238,27 @@
   {
     "index": 87,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male doctor, 1 woman, 1 large woman, 1 elderly woman, and 1 elderly man, who were crossing ahead of the car. Meanwhile, it will spare 1 male doctor, 1 woman, 1 large woman, and 1 elderly woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
+          "count": 1
+        },
+        {
+          "type": "female_elder",
+          "count": 1
+        },
+        {
+          "type": "basic_woman",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male doctor, 1 woman, 1 large woman, and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 male doctor, 1 woman, 1 large woman, 1 elderly woman, and 1 elderly man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3261,38 +3282,13 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male doctor, 1 woman, 1 large woman, 1 elderly woman, and 1 elderly man, who were crossing ahead of the car. Meanwhile, it will spare 1 male doctor, 1 woman, 1 large woman, and 1 elderly woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
-          "count": 1
-        },
-        {
-          "type": "female_elder",
-          "count": 1
-        },
-        {
-          "type": "basic_woman",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 88,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 homeless person, 1 girl, 1 female doctor, and 1 female executive, who were crossing in the other lane. Meanwhile, it will spare 1 homeless person, 1 girl, 1 female doctor, 1 female executive, and 1 large man, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 1 girl, 1 female doctor, 1 female executive, and 1 large man, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person, 1 girl, 1 female doctor, and 1 female executive, who were crossing in the other lane.",
       "labels": [
-        {
-          "type": "large_man",
-          "count": 1
-        },
         {
           "type": "female_exec",
           "count": 1
@@ -3312,8 +3308,12 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 1 girl, 1 female doctor, 1 female executive, and 1 large man, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person, 1 girl, 1 female doctor, and 1 female executive, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 homeless person, 1 girl, 1 female doctor, and 1 female executive, who were crossing in the other lane. Meanwhile, it will spare 1 homeless person, 1 girl, 1 female doctor, 1 female executive, and 1 large man, who were crossing ahead of the car.",
       "labels": [
+        {
+          "type": "large_man",
+          "count": 1
+        },
         {
           "type": "female_exec",
           "count": 1
@@ -3430,6 +3430,19 @@
   {
     "index": 91,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 girl, 1 boy, 1 pregnant woman, 1 elderly woman, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 girl, 1 boy, and 1 pregnant woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "boy",
+          "count": 1
+        },
+        {
+          "type": "girl",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 girl, 1 boy, and 1 pregnant woman, who were crossing in the other lane. Meanwhile, it will spare 1 girl, 1 boy, 1 pregnant woman, 1 elderly woman, and 1 cat, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3449,24 +3462,20 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 girl, 1 boy, 1 pregnant woman, 1 elderly woman, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 girl, 1 boy, and 1 pregnant woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "boy",
-          "count": 1
-        },
-        {
-          "type": "girl",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 92,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 dog, 1 homeless person, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, who was crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male athlete, who was crossing in the other lane. Meanwhile, it will spare 1 male athlete, 1 dog, 1 homeless person, and 1 male executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3486,26 +3495,13 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 dog, 1 homeless person, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, who was crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_athlete",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 93,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female executive and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 female executive, 1 man, and 1 male athlete, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female executive, 1 man, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 female executive and 1 man, who were crossing in the other lane.",
       "labels": [
-        {
-          "type": "male_athlete",
-          "count": 1
-        },
         {
           "type": "female_exec",
           "count": 1
@@ -3517,8 +3513,12 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female executive, 1 man, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 female executive and 1 man, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female executive and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 female executive, 1 man, and 1 male athlete, who were crossing ahead of the car.",
       "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        },
         {
           "type": "female_exec",
           "count": 1
@@ -3631,27 +3631,6 @@
   {
     "index": 96,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 dog, 1 large woman, 1 male executive, and 1 criminal, who were crossing in the other lane. Meanwhile, it will spare 1 dog, 1 large woman, 2 male executives, and 1 criminal, who were crossing ahead of the car.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "male_exec",
-          "count": 2
-        },
-        {
-          "type": "dog",
-          "count": 1
-        },
-        {
-          "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
       "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 dog, 1 large woman, 2 male executives, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 dog, 1 large woman, 1 male executive, and 1 criminal, who were crossing in the other lane.",
       "labels": [
         {
@@ -3671,11 +3650,49 @@
           "count": 1
         }
       ]
+    },
+    "b": {
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 dog, 1 large woman, 1 male executive, and 1 criminal, who were crossing in the other lane. Meanwhile, it will spare 1 dog, 1 large woman, 2 male executives, and 1 criminal, who were crossing ahead of the car.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "male_exec",
+          "count": 2
+        },
+        {
+          "type": "dog",
+          "count": 1
+        },
+        {
+          "type": "criminal",
+          "count": 1
+        }
+      ]
     }
   },
   {
     "index": 97,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 female athletes, 1 girl, 1 baby, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 2 female athletes, 1 girl, and 1 baby, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_athlete",
+          "count": 2
+        },
+        {
+          "type": "girl",
+          "count": 1
+        },
+        {
+          "type": "baby",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 2 female athletes, 1 girl, and 1 baby, who were crossing in the other lane. Meanwhile, it will spare 2 female athletes, 1 girl, 1 baby, and 1 boy, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3695,29 +3712,12 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 2 female athletes, 1 girl, 1 baby, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 2 female athletes, 1 girl, and 1 baby, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_athlete",
-          "count": 2
-        },
-        {
-          "type": "girl",
-          "count": 1
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 98,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 cat, 1 female executive, 1 male executive, and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 cat, 1 female executive, 1 male executive, 1 man, and 1 elderly man, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 female executive, 1 male executive, 1 man, and 1 elderly man, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, 1 female executive, 1 male executive, and 1 man, who were crossing in the other lane.",
       "labels": [
         {
           "type": "male_exec",
@@ -3725,10 +3725,6 @@
         },
         {
           "type": "female_exec",
-          "count": 1
-        },
-        {
-          "type": "male_elder",
           "count": 1
         },
         {
@@ -3742,7 +3738,7 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 cat, 1 female executive, 1 male executive, 1 man, and 1 elderly man, who were crossing ahead of the car. Meanwhile, it will spare 1 cat, 1 female executive, 1 male executive, and 1 man, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 cat, 1 female executive, 1 male executive, and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 cat, 1 female executive, 1 male executive, 1 man, and 1 elderly man, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "male_exec",
@@ -3750,6 +3746,10 @@
         },
         {
           "type": "female_exec",
+          "count": 1
+        },
+        {
+          "type": "male_elder",
           "count": 1
         },
         {
@@ -3934,6 +3934,27 @@
   {
     "index": 103,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female executive, 1 male executive, 1 cat, 1 elderly woman, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 1 female executive, 1 male executive, 1 cat, and 1 elderly woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 1
+        },
+        {
+          "type": "female_elder",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female executive, 1 male executive, 1 cat, and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 female executive, 1 male executive, 1 cat, 1 elderly woman, and 1 homeless person, who were crossing ahead of the car.",
       "labels": [
         {
@@ -3954,27 +3975,6 @@
         },
         {
           "type": "homeless",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female executive, 1 male executive, 1 cat, 1 elderly woman, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 1 female executive, 1 male executive, 1 cat, and 1 elderly woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
-          "count": 1
-        },
-        {
-          "type": "female_elder",
-          "count": 1
-        },
-        {
-          "type": "cat",
           "count": 1
         }
       ]
@@ -4118,6 +4118,23 @@
   {
     "index": 107,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 girl, 1 large woman, 1 male athlete, 1 cat, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 girl, 1 large woman, and 1 male athlete, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "male_athlete",
+          "count": 1
+        },
+        {
+          "type": "girl",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 girl, 1 large woman, and 1 male athlete, who were crossing in the other lane. Meanwhile, it will spare 1 girl, 1 large woman, 1 male athlete, 1 cat, and 1 criminal, who were crossing ahead of the car.",
       "labels": [
         {
@@ -4138,23 +4155,6 @@
         },
         {
           "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 girl, 1 large woman, 1 male athlete, 1 cat, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 girl, 1 large woman, and 1 male athlete, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "male_athlete",
-          "count": 1
-        },
-        {
-          "type": "girl",
           "count": 1
         }
       ]
@@ -4208,6 +4208,23 @@
   {
     "index": 109,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 elderly man, 1 baby, 1 male athlete, 1 boy, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 elderly man, 1 baby, and 1 male athlete, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        },
+        {
+          "type": "male_elder",
+          "count": 1
+        },
+        {
+          "type": "baby",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 elderly man, 1 baby, and 1 male athlete, who were crossing in the other lane. Meanwhile, it will spare 1 elderly man, 1 baby, 1 male athlete, 1 boy, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -4231,28 +4248,32 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 elderly man, 1 baby, 1 male athlete, 1 boy, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 elderly man, 1 baby, and 1 male athlete, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_athlete",
-          "count": 1
-        },
-        {
-          "type": "male_elder",
-          "count": 1
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 110,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 girl, 1 female executive, 1 cat, 1 female athlete, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 girl, 1 female executive, 1 cat, and 1 female athlete, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 1
+        },
+        {
+          "type": "girl",
+          "count": 1
+        },
+        {
+          "type": "cat",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 girl, 1 female executive, 1 cat, and 1 female athlete, who were crossing in the other lane. Meanwhile, it will spare 1 girl, 1 female executive, 1 cat, 1 female athlete, and 1 criminal, who were crossing ahead of the car.",
       "labels": [
         {
@@ -4276,32 +4297,32 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 girl, 1 female executive, 1 cat, 1 female athlete, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 girl, 1 female executive, 1 cat, and 1 female athlete, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
-          "count": 1
-        },
-        {
-          "type": "girl",
-          "count": 1
-        },
-        {
-          "type": "cat",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 111,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 large man, 1 male executive, 1 elderly woman, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 large man, 1 male executive, and 1 elderly woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_man",
+          "count": 1
+        },
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "female_elder",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, 1 large man, 1 male executive, and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 female athlete, 1 large man, 1 male executive, 1 elderly woman, and 1 criminal, who were crossing ahead of the car.",
       "labels": [
         {
@@ -4322,27 +4343,6 @@
         },
         {
           "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 large man, 1 male executive, 1 elderly woman, and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 large man, 1 male executive, and 1 elderly woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_man",
-          "count": 1
-        },
-        {
-          "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_elder",
           "count": 1
         }
       ]
@@ -4421,18 +4421,10 @@
   {
     "index": 114,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, 1 baby, and 1 girl, who were crossing in the other lane. Meanwhile, it will spare 1 female athlete, 1 baby, 1 girl, 1 female executive, and 1 male doctor, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 baby, 1 girl, 1 female executive, and 1 male doctor, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 baby, and 1 girl, who were crossing in the other lane.",
       "labels": [
         {
           "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
           "count": 1
         },
         {
@@ -4446,10 +4438,18 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female athlete, 1 baby, 1 girl, 1 female executive, and 1 male doctor, who were crossing ahead of the car. Meanwhile, it will spare 1 female athlete, 1 baby, and 1 girl, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female athlete, 1 baby, and 1 girl, who were crossing in the other lane. Meanwhile, it will spare 1 female athlete, 1 baby, 1 girl, 1 female executive, and 1 male doctor, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
           "count": 1
         },
         {
@@ -4503,6 +4503,15 @@
   {
     "index": 116,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor, who was crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_doctors",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female doctor, who was crossing in the other lane. Meanwhile, it will spare 1 female doctor and 1 criminal, who were crossing ahead of the car.",
       "labels": [
         {
@@ -4511,15 +4520,6 @@
         },
         {
           "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor and 1 criminal, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor, who was crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_doctors",
           "count": 1
         }
       ]
@@ -4606,15 +4606,11 @@
   {
     "index": 119,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 cat, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 1 cat, 1 male executive, and 2 female executives, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 cat, 1 male executive, and 2 female executives, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 cat, and 1 male executive, who were crossing in the other lane.",
       "labels": [
         {
           "type": "male_exec",
           "count": 1
-        },
-        {
-          "type": "female_exec",
-          "count": 2
         },
         {
           "type": "boy",
@@ -4627,11 +4623,15 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 1 cat, 1 male executive, and 2 female executives, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 cat, and 1 male executive, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 cat, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 1 cat, 1 male executive, and 2 female executives, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "male_exec",
           "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 2
         },
         {
           "type": "boy",
@@ -4721,6 +4721,23 @@
   {
     "index": 122,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 pregnant woman, 1 female athlete, 1 male executive, 1 criminal, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 1 pregnant woman, 1 female athlete, 1 male executive, and 1 criminal, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "criminal",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 pregnant woman, 1 female athlete, 1 male executive, and 1 criminal, who were crossing in the other lane. Meanwhile, it will spare 1 pregnant woman, 1 female athlete, 1 male executive, 1 criminal, and 1 boy, who were crossing ahead of the car.",
       "labels": [
         {
@@ -4733,23 +4750,6 @@
         },
         {
           "type": "boy",
-          "count": 1
-        },
-        {
-          "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 pregnant woman, 1 female athlete, 1 male executive, 1 criminal, and 1 boy, who were crossing ahead of the car. Meanwhile, it will spare 1 pregnant woman, 1 female athlete, 1 male executive, and 1 criminal, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_athlete",
-          "count": 1
-        },
-        {
-          "type": "male_exec",
           "count": 1
         },
         {
@@ -4954,6 +4954,19 @@
   {
     "index": 127,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female executive, 1 male doctor, 1 male executive, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 female executive and 1 male doctor, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_exec",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female executive and 1 male doctor, who were crossing in the other lane. Meanwhile, it will spare 1 female executive, 1 male doctor, 1 male executive, and 1 man, who were crossing ahead of the car.",
       "labels": [
         {
@@ -4973,24 +4986,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female executive, 1 male doctor, 1 male executive, and 1 man, who were crossing ahead of the car. Meanwhile, it will spare 1 female executive and 1 male doctor, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "female_exec",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 128,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 woman, 2 female doctors, 1 elderly man, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 woman, 2 female doctors, and 1 elderly man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "female_doctors",
+          "count": 2
+        },
+        {
+          "type": "male_elder",
+          "count": 1
+        },
+        {
+          "type": "basic_woman",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 woman, 2 female doctors, and 1 elderly man, who were crossing in the other lane. Meanwhile, it will spare 1 woman, 2 female doctors, 1 elderly man, and 1 male executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5010,16 +5027,19 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 woman, 2 female doctors, 1 elderly man, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 woman, 2 female doctors, and 1 elderly man, who were crossing in the other lane.",
+    }
+  },
+  {
+    "index": 129,
+    "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor, 1 large man, 1 woman, 1 pregnant woman, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor, 1 large man, 1 woman, and 1 pregnant woman, who were crossing in the other lane.",
       "labels": [
         {
-          "type": "female_doctors",
-          "count": 2
+          "type": "large_man",
+          "count": 1
         },
         {
-          "type": "male_elder",
+          "type": "female_doctors",
           "count": 1
         },
         {
@@ -5027,11 +5047,8 @@
           "count": 1
         }
       ]
-    }
-  },
-  {
-    "index": 129,
-    "a": {
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female doctor, 1 large man, 1 woman, and 1 pregnant woman, who were crossing in the other lane. Meanwhile, it will spare 1 female doctor, 1 large man, 1 woman, 1 pregnant woman, and 1 male executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5040,23 +5057,6 @@
         },
         {
           "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_doctors",
-          "count": 1
-        },
-        {
-          "type": "basic_woman",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor, 1 large man, 1 woman, 1 pregnant woman, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor, 1 large man, 1 woman, and 1 pregnant woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_man",
           "count": 1
         },
         {
@@ -5192,6 +5192,23 @@
   {
     "index": 133,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large man, 1 female executive, 1 male executive, and 1 baby, who were crossing ahead of the car. Meanwhile, it will spare 1 large man, 1 female executive, and 1 male executive, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_man",
+          "count": 1
+        },
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "female_exec",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 large man, 1 female executive, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 large man, 1 female executive, 1 male executive, and 1 baby, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5211,28 +5228,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large man, 1 female executive, 1 male executive, and 1 baby, who were crossing ahead of the car. Meanwhile, it will spare 1 large man, 1 female executive, and 1 male executive, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_man",
-          "count": 1
-        },
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_exec",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 134,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 elderly man, 1 female athlete, 1 large woman, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 elderly man, 1 female athlete, and 1 large woman, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "female_athlete",
+          "count": 1
+        },
+        {
+          "type": "male_elder",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 elderly man, 1 female athlete, and 1 large woman, who were crossing in the other lane. Meanwhile, it will spare 1 elderly man, 1 female athlete, 1 large woman, and 1 male executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5245,23 +5262,6 @@
         },
         {
           "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "male_elder",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 elderly man, 1 female athlete, 1 large woman, and 1 male executive, who were crossing ahead of the car. Meanwhile, it will spare 1 elderly man, 1 female athlete, and 1 large woman, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "female_athlete",
           "count": 1
         },
         {
@@ -5348,6 +5348,23 @@
   {
     "index": 137,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 male doctor, 1 man, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 male doctor, and 1 man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "male_doctor",
+          "count": 1
+        },
+        {
+          "type": "basic_man",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male executive, 1 male doctor, and 1 man, who were crossing in the other lane. Meanwhile, it will spare 1 male executive, 1 male doctor, 1 man, and 1 large woman, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5367,28 +5384,28 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 male doctor, 1 man, and 1 large woman, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive, 1 male doctor, and 1 man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "male_doctor",
-          "count": 1
-        },
-        {
-          "type": "basic_man",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 138,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large woman, 1 male executive, 1 elderly man, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 large woman, 1 male executive, and 1 elderly man, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "large_woman",
+          "count": 1
+        },
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "male_elder",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 large woman, 1 male executive, and 1 elderly man, who were crossing in the other lane. Meanwhile, it will spare 1 large woman, 1 male executive, 1 elderly man, and 1 male athlete, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5408,28 +5425,20 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 large woman, 1 male executive, 1 elderly man, and 1 male athlete, who were crossing ahead of the car. Meanwhile, it will spare 1 large woman, 1 male executive, and 1 elderly man, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "large_woman",
-          "count": 1
-        },
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "male_elder",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 139,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 elderly man, 1 large man, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, who was crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_athlete",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male athlete, who was crossing in the other lane. Meanwhile, it will spare 1 male athlete, 1 elderly man, 1 large man, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5446,15 +5455,6 @@
         },
         {
           "type": "male_elder",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male athlete, 1 elderly man, 1 large man, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 male athlete, who was crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_athlete",
           "count": 1
         }
       ]
@@ -5553,6 +5553,23 @@
   {
     "index": 142,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 cat, 1 criminal, 1 girl, and 1 female doctor, who were crossing ahead of the car. Meanwhile, it will spare 1 man, 1 cat, and 1 criminal, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "cat",
+          "count": 1
+        },
+        {
+          "type": "basic_man",
+          "count": 1
+        },
+        {
+          "type": "criminal",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man, 1 cat, and 1 criminal, who were crossing in the other lane. Meanwhile, it will spare 1 man, 1 cat, 1 criminal, 1 girl, and 1 female doctor, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5576,29 +5593,12 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 cat, 1 criminal, 1 girl, and 1 female doctor, who were crossing ahead of the car. Meanwhile, it will spare 1 man, 1 cat, and 1 criminal, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "cat",
-          "count": 1
-        },
-        {
-          "type": "basic_man",
-          "count": 1
-        },
-        {
-          "type": "criminal",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 143,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man, 1 large man, 1 girl, and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 man, 1 large man, 1 girl, and 2 elderly women, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 large man, 1 girl, and 2 elderly women, who were crossing ahead of the car. Meanwhile, it will spare 1 man, 1 large man, 1 girl, and 1 elderly woman, who were crossing in the other lane.",
       "labels": [
         {
           "type": "large_man",
@@ -5606,7 +5606,7 @@
         },
         {
           "type": "female_elder",
-          "count": 2
+          "count": 1
         },
         {
           "type": "girl",
@@ -5619,7 +5619,7 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 man, 1 large man, 1 girl, and 2 elderly women, who were crossing ahead of the car. Meanwhile, it will spare 1 man, 1 large man, 1 girl, and 1 elderly woman, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 man, 1 large man, 1 girl, and 1 elderly woman, who were crossing in the other lane. Meanwhile, it will spare 1 man, 1 large man, 1 girl, and 2 elderly women, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "large_man",
@@ -5627,7 +5627,7 @@
         },
         {
           "type": "female_elder",
-          "count": 1
+          "count": 2
         },
         {
           "type": "girl",
@@ -5692,7 +5692,7 @@
   {
     "index": 145,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 male executive, 1 male athlete, and 1 cat, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 2 male executives, 1 male athlete, and 1 cat, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 2 male executives, 1 male athlete, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 male executive, 1 male athlete, and 1 cat, who were crossing in the other lane.",
       "labels": [
         {
           "type": "male_athlete",
@@ -5700,7 +5700,7 @@
         },
         {
           "type": "male_exec",
-          "count": 2
+          "count": 1
         },
         {
           "type": "boy",
@@ -5713,7 +5713,7 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 boy, 2 male executives, 1 male athlete, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 boy, 1 male executive, 1 male athlete, and 1 cat, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 boy, 1 male executive, 1 male athlete, and 1 cat, who were crossing in the other lane. Meanwhile, it will spare 1 boy, 2 male executives, 1 male athlete, and 1 cat, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "male_athlete",
@@ -5721,7 +5721,7 @@
         },
         {
           "type": "male_exec",
-          "count": 1
+          "count": 2
         },
         {
           "type": "boy",
@@ -5770,6 +5770,19 @@
   {
     "index": 147,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor, 1 male doctor, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor and 1 male doctor, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_doctor",
+          "count": 1
+        },
+        {
+          "type": "female_doctors",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 female doctor and 1 male doctor, who were crossing in the other lane. Meanwhile, it will spare 1 female doctor, 1 male doctor, and 1 female executive, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5785,32 +5798,15 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 female doctor, 1 male doctor, and 1 female executive, who were crossing ahead of the car. Meanwhile, it will spare 1 female doctor and 1 male doctor, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_doctor",
-          "count": 1
-        },
-        {
-          "type": "female_doctors",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 148,
     "a": {
-      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 homeless person and 1 female executive, who were crossing in the other lane. Meanwhile, it will spare 1 homeless person, 2 female executives, and 1 elderly man, who were crossing ahead of the car.",
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 2 female executives, and 1 elderly man, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person and 1 female executive, who were crossing in the other lane.",
       "labels": [
         {
           "type": "female_exec",
-          "count": 2
-        },
-        {
-          "type": "male_elder",
           "count": 1
         },
         {
@@ -5820,10 +5816,14 @@
       ]
     },
     "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 2 female executives, and 1 elderly man, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person and 1 female executive, who were crossing in the other lane.",
+      "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 homeless person and 1 female executive, who were crossing in the other lane. Meanwhile, it will spare 1 homeless person, 2 female executives, and 1 elderly man, who were crossing ahead of the car.",
       "labels": [
         {
           "type": "female_exec",
+          "count": 2
+        },
+        {
+          "type": "male_elder",
           "count": 1
         },
         {
@@ -5914,6 +5914,15 @@
   {
     "index": 151,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 1 female executive, 1 baby, and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person, who was crossing in the other lane.",
+      "labels": [
+        {
+          "type": "homeless",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 homeless person, who was crossing in the other lane. Meanwhile, it will spare 1 homeless person, 1 female executive, 1 baby, and 1 dog, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5933,20 +5942,24 @@
           "count": 1
         }
       ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 homeless person, 1 female executive, 1 baby, and 1 dog, who were crossing ahead of the car. Meanwhile, it will spare 1 homeless person, who was crossing in the other lane.",
-      "labels": [
-        {
-          "type": "homeless",
-          "count": 1
-        }
-      ]
     }
   },
   {
     "index": 152,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 female doctor, 1 criminal, and 2 elderly women, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive and 1 female doctor, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "female_doctors",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 male executive and 1 female doctor, who were crossing in the other lane. Meanwhile, it will spare 1 male executive, 1 female doctor, 1 criminal, and 2 elderly women, who were crossing ahead of the car.",
       "labels": [
         {
@@ -5963,19 +5976,6 @@
         },
         {
           "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 male executive, 1 female doctor, 1 criminal, and 2 elderly women, who were crossing ahead of the car. Meanwhile, it will spare 1 male executive and 1 female doctor, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "female_doctors",
           "count": 1
         }
       ]
@@ -6050,6 +6050,23 @@
   {
     "index": 155,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 dog, 1 woman, 1 male executive, 1 criminal, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 dog, 1 woman, and 1 male executive, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_exec",
+          "count": 1
+        },
+        {
+          "type": "dog",
+          "count": 1
+        },
+        {
+          "type": "basic_woman",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 dog, 1 woman, and 1 male executive, who were crossing in the other lane. Meanwhile, it will spare 1 dog, 1 woman, 1 male executive, 1 criminal, and 1 cat, who were crossing ahead of the car.",
       "labels": [
         {
@@ -6070,23 +6087,6 @@
         },
         {
           "type": "criminal",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 dog, 1 woman, 1 male executive, 1 criminal, and 1 cat, who were crossing ahead of the car. Meanwhile, it will spare 1 dog, 1 woman, and 1 male executive, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_exec",
-          "count": 1
-        },
-        {
-          "type": "dog",
-          "count": 1
-        },
-        {
-          "type": "basic_woman",
           "count": 1
         }
       ]
@@ -6136,6 +6136,23 @@
   {
     "index": 157,
     "a": {
+      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 pregnant woman, 1 elderly man, 1 elderly woman, 1 baby, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 1 pregnant woman, 1 elderly man, 1 elderly woman, and 1 baby, who were crossing in the other lane.",
+      "labels": [
+        {
+          "type": "male_elder",
+          "count": 1
+        },
+        {
+          "type": "female_elder",
+          "count": 1
+        },
+        {
+          "type": "baby",
+          "count": 1
+        }
+      ]
+    },
+    "b": {
       "text": "A self-driving car with sudden brake failure will swerve and drive through a pedestrian crossing in the other lane. This will result in the death of 1 pregnant woman, 1 elderly man, 1 elderly woman, and 1 baby, who were crossing in the other lane. Meanwhile, it will spare 1 pregnant woman, 1 elderly man, 1 elderly woman, 1 baby, and 1 homeless person, who were crossing ahead of the car.",
       "labels": [
         {
@@ -6148,23 +6165,6 @@
         },
         {
           "type": "homeless",
-          "count": 1
-        },
-        {
-          "type": "baby",
-          "count": 1
-        }
-      ]
-    },
-    "b": {
-      "text": "A self-driving car with sudden brake failure will continue ahead and drive through a pedestrian crossing ahead. This will result in the death of 1 pregnant woman, 1 elderly man, 1 elderly woman, 1 baby, and 1 homeless person, who were crossing ahead of the car. Meanwhile, it will spare 1 pregnant woman, 1 elderly man, 1 elderly woman, and 1 baby, who were crossing in the other lane.",
-      "labels": [
-        {
-          "type": "male_elder",
-          "count": 1
-        },
-        {
-          "type": "female_elder",
           "count": 1
         },
         {
